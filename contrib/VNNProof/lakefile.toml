@@ -1,0 +1,10 @@
+name = "VNNProof"
+version = "0.1.0"
+defaultTargets = ["vnnproof"]
+
+[[lean_lib]]
+name = "VNNProof"
+
+[[lean_exe]]
+name = "vnnproof"
+root = "Main"
